@@ -104,6 +104,8 @@ public class Basics {
             System.out.println("Current count: " + i);
         }
 
+        int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        System.out.println(oddSum(a));
     }
 
     /**
@@ -180,7 +182,7 @@ public class Basics {
         if (arr.length < 2)
             return 0;
         else{
-            for (int i = 1; i < arr.length - 1; i += 2){
+            for (int i = 1; i < arr.length; i += 2){
                 current_sum += arr[i];
             }
         }
